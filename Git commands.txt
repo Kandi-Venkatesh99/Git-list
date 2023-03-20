@@ -1,0 +1,48 @@
+Git commands
+
+Git --version
+
+git config --global user.name " "
+git config --global user.email " "
+
+to edit
+
+git config --global --edit
+
+git init 
+
+git status
+
+git commit -m "first commit"
+
+git log
+
+git checkout hashcode  -- deletes the file
+
+git checkout master     ---go to the previous master
+
+git branch
+
+git branch dev  ---new dev branch
+
+git checkout dev--- switch to dev branch
+
+git checkout -b   --new branch and checkout in it
+
+Note: file gets deleted when we move from 1 branch to another branch
+
+git remote -v   remote origin to check
+
+git remote add origin "https"
+
+git checkout master   --go to master branch
+
+git merge dev   (merge dev to present branch master)
+
+git push    (push to github)
+
+git checkout dev  (go to dev)
+
+git push -u origin dev (push dev to origin)
+
+git clone url (for cloning a repo)
